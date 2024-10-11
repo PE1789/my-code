@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #B22222; /* Dark red color */
+    margin-right: 20px; /* เพิ่มระยะห่างระหว่างชื่อแบรนด์กับช่องค้นหา */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Hero Section */
+.hero-content img {
+    width: 87%;
+    height: 1000px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Why Ad-Protech Section */
+.why-adprotech {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.why-adprotech h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.why-adprotech p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Product Section */
+.product-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.learn-more {
+    margin-top: 20px;
+}
+
+.learn-more-btn {
+    background-color: #b52d2d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px; /* ทำให้มุมมน */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนสีเมื่อโฮเวอร์ */
+}
+
+.learn-more-btn:hover {
+    background-color: #000000; /* สีเมื่อโฮเวอร์ */
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Product Item Links */
+.product-item a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    margin-top: 10px; 
+    transition: color 0.3s; 
+}
+
+.product-item a:hover {
+    color: #007BFF;
+}
+
+/* Search Form Styles */
+.search-form {
+    display: inline-block; /* ทำให้ช่องค้นหาอยู่ในแนวเดียวกับชื่อแบรนด์ */
+    margin-left: 10px; /* เพิ่มระยะห่างเล็กน้อย */
+}
+
+.search-form input {
+    padding: 10px; /* เพิ่ม padding */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* ทำให้มุมมน */
+    margin-right: 5px;
+    width: 300px; /* ขยายความกว้าง */
+}
+
+.search-form button {
+    padding: 10px 20px; /* เพิ่ม padding */
+    background-color: #B22222;
+    color: white;
+    border: none;
+    border-radius: 20px; /* ทำให้มุมมน */
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #000000;
+}
